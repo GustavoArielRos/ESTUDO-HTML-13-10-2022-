@@ -1,0 +1,35 @@
+<!-- exibir uma página html dentro de uma página html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- tag frame-->
+    <!-- rodando o conteúdo da página link3 dentro dessa página atual-->
+    <br>
+    <iframe src="equipe-link/link3.html" width="" height=""
+    title="Meu iframe"></iframe>
+    
+    <br>
+    <!-- pode se usar o iframe para também colocar vídeos do youtube-->
+    <!-- basicamente copiar o que está no "compartilhar" no youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PB7voPuuELY" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <br>
+    <!-- usando o target pra ao invés de pra uma outra página, trazer o conteúdo pra essa pagina principal-->
+    <iframe  width="" height="" src="" name="meu-iframe"
+    title="Iframe de exemplo"></iframe>
+
+    <a href="links2.html" target="meu iframe">Sobre nós</a>
+
+</body>
+</html>
